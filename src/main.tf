@@ -13,6 +13,8 @@ terraform {
 
 provider "aws" {
   region = "us-east-1"
+  access_key = "ASIA33DXQT3N4QX7GN4C"
+  secret_key = "BHfjWOdeRIcE0HPf4WsJsDr4VIOvVWZjTp9YOBZ8"
 }
 
 module "tf-state" {
